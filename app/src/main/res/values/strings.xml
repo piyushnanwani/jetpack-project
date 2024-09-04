@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JetPack Compose App</string>
+    <string name="title_activity_register">RegisterActivity</string>
+</resources>
