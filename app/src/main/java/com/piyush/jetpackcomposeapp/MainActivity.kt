@@ -41,6 +41,8 @@ fun TodoScreen() {
     var todoList by remember {mutableStateOf(listOf<String>())}
 
     Column(modifier = Modifier.padding(16.dp)) {
+        // add margin top above below mentioned text
+        Spacer(modifier = Modifier.padding(16.dp))
         Text(
             text = "Todo App",
         )
